@@ -1,0 +1,11 @@
+{
+  "name": "CMS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start-server": "cd ./server && node index.js",
+    "start-ui": "cd ./ui && yarn run dev",
+    "dev": "yarn run start-server & yarn run start-ui"
+  }
+}

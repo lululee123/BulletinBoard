@@ -1,0 +1,4 @@
+export const MODAL_TYPES = {
+  CREATE_ROOM: "CREATE_ROOM",
+  DELETE_ROOM: "DELETE_ROOM",
+};
